@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Assets from '$lib/data/assets';
 	import type { Experience } from '$lib/data/types';
 	import { computeExactDuration, getMonthAndYear, href } from '$lib/utils';
 	import { ellipsify } from '@riadh-adrani/utils';
@@ -34,7 +33,7 @@
 	<CardContent class="flex flex-col gap-8 sm:flex-row">
 		<Avatar>
 			<AvatarFallback>
-				<img src={Assets.Unknown.light} alt={it.name} />
+				<img src={it.logo.light} alt={it.name} />
 			</AvatarFallback>
 			<AvatarImage src={$mode === 'dark' ? it.logo.dark : it.logo.light} />
 		</Avatar>
