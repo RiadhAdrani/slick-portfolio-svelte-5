@@ -190,6 +190,14 @@ export const items = [
 		name: 'Remix'
 	}),
 	defineSkill({
+		slug: 'nextjs',
+		color: 'white',
+		description: '',
+		logo: Assets.NextJs,
+		category: 'framework',
+		name: 'Next.js'
+	}),
+	defineSkill({
 		slug: 'svelte',
 		color: 'orange',
 		description: svelte_md,
