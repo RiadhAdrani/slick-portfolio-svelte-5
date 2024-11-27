@@ -8,6 +8,7 @@ const asset = (lightFilename: string, darkFilename = lightFilename) => {
 
 const Assets = {
 	Riamenix: asset('riamenix.png'),
+	NextJs: asset('nextjs.png', 'nextjs-dark.png'),
 	HSTECH: asset('hstech.jpg'),
 	Triweb: asset('triweb.jpg'),
 	AWS: asset('aws.svg'),
