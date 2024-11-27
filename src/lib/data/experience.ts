@@ -18,7 +18,24 @@ export const items: Array<Experience> = [
 		links: [],
 		logo: Assets.Riamenix,
 		period: { from: new Date(2024, 7, 1) },
-		skills: getSkills('ts'),
+		skills: getSkills(
+			'ts',
+			'angular',
+			'css',
+			'docker',
+			'electron',
+			'firebase',
+			'honojs',
+			'node',
+			'postgresql',
+			'reactjs',
+			'vite',
+			'vitest',
+			'unocss',
+			'tailwind',
+			'remix',
+			'nextjs'
+		),
 		screenshots: []
 	},
 	{
