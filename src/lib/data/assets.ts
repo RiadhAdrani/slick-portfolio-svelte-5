@@ -7,6 +7,9 @@ const asset = (lightFilename: string, darkFilename = lightFilename) => {
 };
 
 const Assets = {
+	Riamenix: asset('riamenix.png'),
+	HSTECH: asset('hstech.jpg'),
+	Triweb: asset('triweb.jpg'),
 	AWS: asset('aws.svg'),
 	Bootstrap: asset('bootstrap.svg'),
 	C: asset('c.svg'),
@@ -17,12 +20,12 @@ const Assets = {
 	Flask: asset('flask.svg'),
 	Go: asset('go.svg'),
 	Kafka: asset('kafka.svg'),
-	Neo4j: asset('neo4j.svg'),
+	Neo4j: asset('neo4j.png'),
 	Nginx: asset('nginx.svg'),
 	Numpy: asset('numpy.svg'),
 	Pandas: asset('pandas.svg'),
 	RabbitMQ: asset('rabbitmq.svg'),
-	Rust: asset('rust.svg', 'rust-dark.png'),
+	Rust: asset('rust.png'),
 	Scrapy: asset('scrapy.png'),
 	Selenium: asset('selenium.svg'),
 	Docker: asset('docker.svg'),
@@ -40,7 +43,7 @@ const Assets = {
 	Svelte: asset('svelte.svg'),
 	ExpressJs: asset('express.png'),
 	JavaScript: asset('js.png'),
-	Fastify: asset('fastify.svg', 'fastify-dark.png'),
+	Fastify: asset('fastify.png'),
 	NestJs: asset('nest.svg'),
 	Quasar: asset('quasar.svg'),
 	SolidJs: asset('solid.svg'),
@@ -69,7 +72,16 @@ const Assets = {
 	Jest: asset('jest.png'),
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
-	Postcss: asset('postcss.svg')
+	Postcss: asset('postcss.svg'),
+	Azur: asset('azur.png'),
+	BrainAcademy: asset('brain-academy.jpg'),
+	Remix: asset('remix.svg'),
+	Prisma: asset('prisma.png'),
+	Werewolves: asset('loup-garou.png'),
+	Playwright: asset('playwright.svg'),
+	UCOD: asset('ucod.jpg'),
+	HonoJs: asset('hono-js.png'),
+	CiHub: asset('cihub.webp')
 };
 
 export default Assets;
