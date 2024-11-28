@@ -11,7 +11,7 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'Self made software developer, passionate about creating high quality and performant applications.',
 	links: [
 		{ label: 'GitHub', href: 'https://github.com/RiadhAdrani', icon: 'i-carbon-logo-github' },
 		{
