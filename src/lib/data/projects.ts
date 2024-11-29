@@ -31,6 +31,23 @@ import dom_router_md from '$lib/data/md/projects/dom-router.md?raw';
 
 export const items: Array<Project> = [
 	{
+		slug: 'slick-portfolio-svelte-5',
+		color: '#ff3e00',
+		name: 'Portfolio Svelte 5',
+		logo: Assets.Svelte,
+		description:
+			'The update version of my personal website portfolio using svelte 5 and shadcn-svelte',
+		shortDescription:
+			'The update version of my personal website portfolio using svelte 5 and shadcn-svelte',
+		period: { from: new Date(2024, 10, 19) },
+		links: [
+			{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte-5' },
+			{ label: 'Demo', to: 'https://riadhadrani.github.io/slick-portfolio-svelte-5/' }
+		],
+		skills: getSkills('ts', 'svelte', 'sass', 'vite', 'unocss', 'css', 'node', 'vite', 'tailwind'),
+		type: 'Website'
+	},
+	{
 		slug: 'dom-router',
 		color: 'green',
 		description: dom_router_md,
@@ -105,7 +122,7 @@ export const items: Array<Project> = [
 		name: 'Docuniser',
 		period: {
 			from: new Date(2023, 8, 23),
-			to: new Date(2023, 10, 0)
+			to: new Date(2023, 9, 1)
 		},
 		skills: getSkills('ts', 'reactjs', 'node', 'vite', 'electron', 'unocss', 'docker'),
 		type: 'Desktop App',
@@ -171,7 +188,8 @@ export const items: Array<Project> = [
 		logo: Assets.Ruvy,
 		name: 'Ruvy',
 		period: {
-			from: new Date(2023, 2, 1)
+			from: new Date(2023, 2, 1),
+			to: new Date(2024, 7, 15)
 		},
 		skills: getSkills('ts', 'node', 'vite', 'vitest', 'unocss'),
 		type: 'Web Framework'
@@ -183,7 +201,7 @@ export const items: Array<Project> = [
 		logo: Assets.NodeJs,
 		description: 'Create and manipulate DOM elements.',
 		shortDescription: 'Create and manipulate DOM elements.',
-		period: { from: new Date(2022, 9, 28) },
+		period: { from: new Date(2022, 9, 28), to: new Date(2024, 7, 15) },
 		links: [
 			{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/dom-control-js' },
 			{ label: 'NPM', to: 'https://www.npmjs.com/package/@riadh-adrani/dom-control-js' },
@@ -201,7 +219,7 @@ export const items: Array<Project> = [
 			'An app to manage your game of Loup garous de thiercelieu also known as The Werewolves of Millers Hollow.',
 		shortDescription:
 			'An app to manage your game of Loup garous de thiercelieu also known as The Werewolves of Millers Hollow.',
-		period: { from: new Date(2022, 6, 23) },
+		period: { from: new Date(2022, 6, 23), to: new Date(2023, 7, 23) },
 		links: [{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/werewolves' }],
 		skills: getSkills('dart', 'flutter'),
 		type: 'Mobile App'
@@ -213,7 +231,7 @@ export const items: Array<Project> = [
 		logo: Assets.Svelte,
 		description: 'My personal website portfolio.',
 		shortDescription: 'My personal website portfolio.',
-		period: { from: new Date(2021, 3, 1) },
+		period: { from: new Date(2023, 1, 24) },
 		links: [{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/RiadhAdrani' }],
 		skills: getSkills('ts', 'svelte', 'sass', 'vite', 'unocss'),
 		type: 'Website'
@@ -242,7 +260,7 @@ export const items: Array<Project> = [
 		logo: Assets.NodeJs,
 		description: 'My JavaScript utility functions and types.',
 		shortDescription: 'My JavaScript utility functions and types.',
-		period: { from: new Date(2022, 8, 1) },
+		period: { from: new Date(2022, 8, 1), to: new Date(2023, 9, 10) },
 		links: [
 			{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/utility-js' },
 			{ label: 'NPM', to: 'https://www.npmjs.com/package/@riadh-adrani/utility-js' }

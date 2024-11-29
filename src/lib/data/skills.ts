@@ -27,6 +27,7 @@ const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCat
 
 const categories = [
 	defineSkillCategory({ name: 'Programming Languages', slug: 'pro-lang' }),
+	defineSkillCategory({ name: 'Runtimes and Environments', slug: 'env' }),
 	defineSkillCategory({ name: 'Frameworks', slug: 'framework' }),
 	defineSkillCategory({ name: 'Libraries', slug: 'library' }),
 	defineSkillCategory({ name: 'Langauges', slug: 'lang' }),
@@ -403,7 +404,7 @@ export const items = [
 	}),
 	defineSkill({
 		slug: 'jest',
-		color: 'green',
+		color: 'red',
 		description: '',
 		logo: Assets.Jest,
 		name: 'Jest',
