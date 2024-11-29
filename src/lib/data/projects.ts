@@ -48,6 +48,18 @@ export const items: Array<Project> = [
 		type: 'Website'
 	},
 	{
+		slug: 'qanat',
+		color: 'white',
+		name: 'Qanat',
+		logo: Assets.Deno,
+		description: 'A simple backend framework for the deno runtime. Work in progress !',
+		shortDescription: 'A simple backend framework for the deno runtime. Work in progress !',
+		period: { from: new Date(2024, 9, 15) },
+		links: [{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/qanat' }],
+		skills: getSkills('ts', 'deno'),
+		type: 'Backend Framework'
+	},
+	{
 		slug: 'dom-router',
 		color: 'green',
 		description: dom_router_md,
