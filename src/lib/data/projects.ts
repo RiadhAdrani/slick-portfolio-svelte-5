@@ -29,7 +29,21 @@ import docuniser_home from '$lib/data/screenshots/docuniser/home.png';
 import domer_md from '$lib/data/md/projects/domer.md?raw';
 import dom_router_md from '$lib/data/md/projects/dom-router.md?raw';
 
+import json_parser_md from '$lib/data/md/projects/json-parser.md?raw';
+
 export const items: Array<Project> = [
+	{
+		slug: 'json-parser',
+		color: '#aaaaaa',
+		name: 'JSON Parser',
+		logo: Assets.C,
+		description: json_parser_md,
+		shortDescription: '⚡ A blazingly fast JSON parser using the blazingly fast c language',
+		period: { from: new Date(2025, 0, 4), to: new Date(2025, 1, 4) },
+		links: [{ label: 'GitHub', to: 'https://github.com/RiadhAdrani/json-parser' }],
+		skills: getSkills('c'),
+		type: 'Library'
+	},
 	{
 		slug: 'slick-portfolio-svelte-5',
 		color: '#ff3e00',
