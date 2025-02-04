@@ -117,6 +117,14 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'c',
+		color: 'blue',
+		description: '',
+		logo: Assets.C,
+		name: 'C',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'dart',
 		color: 'cyan',
 		description: dart_md,
