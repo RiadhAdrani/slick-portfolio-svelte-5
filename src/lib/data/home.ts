@@ -11,7 +11,7 @@ const hero: {
 } = {
 	title: `${BaseData.fullName},`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		'Senior Manager & Tech Lead at Fidelity Investments, Ex HP Inc, Ericsson, Microsoft & AWS certified',
 	links: [
 		{ label: 'GitHub', href: 'https://github.com/kunal-gandhre', icon: 'i-carbon-logo-github' },
 		{ label: 'LinkedIn', href: 'https://linkedin.com/in/kunal-gandhre/', icon: 'i-carbon-logo-linkedin' },
