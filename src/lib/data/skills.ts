@@ -322,6 +322,14 @@ export const items = [
 		name: 'Hono JS',
 		category: 'framework'
 	}),
+	defineSkill({
+		slug: 'nestjs',
+		color: 'pink',
+		description: '',
+		logo: Assets.NestJs,
+		name: 'Nest JS',
+		category: 'framework'
+	}),
 
 	// DATABASES
 	defineSkill({

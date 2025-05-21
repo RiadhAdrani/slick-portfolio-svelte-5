@@ -34,7 +34,9 @@ export const items: Array<Experience> = [
 			'unocss',
 			'tailwind',
 			'remix',
-			'nextjs'
+			'nextjs',
+			'flutter',
+			'nestjs'
 		),
 		screenshots: []
 	},
