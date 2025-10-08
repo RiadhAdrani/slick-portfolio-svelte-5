@@ -65,50 +65,39 @@ export function computeExactDuration(from: Date, to: Date = new Date()): string 
 	const fromMs = from.getTime();
 	const toMs = to.getTime();
 
-	const display: Array<string> = [];
-
 	let remaining = toMs - fromMs;
+	const parts: string[] = [];
 
-	const years = remaining / YEAR;
-
+	const years = Math.trunc(remaining / YEAR);
 	if (years >= 1) {
 		remaining = remaining % YEAR;
-		display.push(`${Math.trunc(years)} year${years >= 2 ? 's' : ''}`);
+		parts.push(`${years} year${years >= 2 ? 's' : ''}`);
 	}
 
-	const months = remaining / MONTH;
+	const months = Math.trunc(remaining / MONTH);
 	if (months >= 1) {
 		remaining = remaining % MONTH;
-		display.push(`${Math.trunc(months)} month${months >= 2 ? 's' : ''}`);
+		parts.push(`${months} month${months >= 2 ? 's' : ''}`);
 	}
 
-	const weeks = remaining / WEEK;
+	const weeks = Math.trunc(remaining / WEEK);
 	if (weeks >= 1) {
 		remaining = remaining % WEEK;
-		display.push(`${Math.trunc(weeks)} week${weeks >= 2 ? 's' : ''}`);
+		parts.push(`${weeks} week${weeks >= 2 ? 's' : ''}`);
 	}
 
-	const days = remaining / DAY;
+	const days = Math.trunc(remaining / DAY);
 	if (days >= 1) {
-		remaining = remaining % DAY;
-		display.push(`${Math.trunc(days)} day${days >= 2 ? 's' : ''}`);
+		parts.push(`${days} day${days >= 2 ? 's' : ''}`);
 	}
 
-	if (display.length === 0) {
+	if (parts.length === 0) {
 		return '1 day';
 	}
 
-	return display
-		.map((it, index) => {
-			if (display.length === 1 || index === display.length - 1) return it;
-
-			if (index === display.length - 2) {
-				return `${it} and`;
-			}
-
-			return `${it},`;
-		})
-		.join(' ');
+	const firstTwo = parts.slice(0, 2);
+	if (firstTwo.length === 1) return firstTwo[0];
+	return `${firstTwo[0]} and ${firstTwo[1]}`;
 }
 
 const monthNames = [
