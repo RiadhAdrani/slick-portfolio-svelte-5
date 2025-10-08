@@ -16,8 +16,8 @@
 		"@riadh-adrani/utils": "^1.0.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.6",
-		"@sveltejs/kit": "^2.0.0",
-		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"@sveltejs/kit": "^2.46.2",
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"@types/eslint": "^9.6.0",
 		"@types/prismjs": "^1.26.5",
 		"autoprefixer": "^10.4.20",
@@ -36,7 +36,7 @@
 		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.6",
 		"prettier-plugin-tailwindcss": "^0.6.5",
-		"prismjs": "^1.29.0",
+		"prismjs": "^1.30.0",
 		"svelte": "^5.0.0",
 		"svelte-check": "^4.0.0",
 		"svelte-sonner": "^0.3.28",
@@ -45,7 +45,7 @@
 		"tailwindcss": "^3.4.9",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.0.0",
-		"unocss": "^0.64.1",
-		"vite": "^5.0.3"
+		"unocss": "^66.5.2",
+		"vite": "^7.1.9"
 	}
 }
