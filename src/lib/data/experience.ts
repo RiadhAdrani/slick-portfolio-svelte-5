@@ -15,7 +15,10 @@ export const items: Array<Experience> = [
 		shortDescription: '',
 		type: 'Software Development',
 		location: 'Remote Tunisia',
-		links: [],
+		links: [
+			{ label: 'Website', newTab: true, to: 'https://riamenix.github.io/' },
+			{ label: 'GitHub', newTab: true, to: 'https://github.com/riamenix' }
+		],
 		logo: Assets.Riamenix,
 		period: { from: new Date(2024, 7, 1) },
 		skills: getSkills(
@@ -47,13 +50,14 @@ export const items: Array<Experience> = [
 		color: 'red',
 		contract: ContractType.FullTime,
 		description: '',
-		shortDescription: '',
+		shortDescription:
+			'CI HUB is an all-in-one content integration solution, connecting tools and assets for a seamless creative experience.',
 		type: 'Software Development',
 		location: 'Remote Tunisia',
 		links: [{ label: 'Website', to: 'https://ci-hub.com/', newTab: true }],
 		logo: Assets.CiHub,
 		period: { from: new Date(2024, 6, 1) },
-		skills: getSkills('js', 'docker', 'node', 'express'),
+		skills: getSkills('js', 'docker', 'node', 'express', 'reactjs', 'ts', 'vue'),
 		screenshots: []
 	},
 	{
